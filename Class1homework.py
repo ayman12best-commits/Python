@@ -1,0 +1,1 @@
+print("I will wake up early and do more productive activities")

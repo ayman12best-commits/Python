@@ -1,0 +1,9 @@
+# tip to the waiter
+def tip(amt,per):
+    wtip = amt*per/100
+    print("the amt : ",amt)
+    print("Waiter tip",wtip)
+    print("total amt",amt + wtip)
+    
+amt = float(input("enter the amt = "))
+tip(amt,2)

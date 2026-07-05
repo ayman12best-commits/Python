@@ -1,0 +1,9 @@
+# check A is present or not
+
+str1 = input("enter the phrase : ")
+for i in str1:
+    if "a" == i.lower():
+        print(i,"is present")
+        break
+else:
+    print("a or A is not present")

@@ -1,0 +1,9 @@
+# continue
+
+i = 11
+print("the numbers from 10 to 1 skipping 5")
+while i > 0:
+    i-=1
+    if i == 5:
+        continue
+    print(i)

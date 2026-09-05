@@ -1,0 +1,17 @@
+# create class
+class IOSstring():
+
+    # constructor to set default value
+    def __init__(self):
+        self.str1 = ""
+
+    def get_string(self):
+        self.str1 = input("Enter string : ")
+
+    def print_String(self):
+        print("Result is :", self.str1.upper())
+
+str1 = IOSstring()
+
+str1.get_string()
+str1.print_String()
